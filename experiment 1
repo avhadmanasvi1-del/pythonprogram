@@ -1,0 +1,17 @@
+name = input('enter your name')
+age = input('enter age')
+address = input('enter your address')
+
+print("hello!", name)
+print(f"how are you? {name}")
+print(f"i am {age} year old")
+print(f"my address is {address}")
+
+
+name = input('enter your name')
+uin = input('enter your uin')
+marks = input('enter your marks')
+
+print(f"hello! {name}")
+print(f"my uin is {uin}")
+print(f"my 12 marks is {marks}")

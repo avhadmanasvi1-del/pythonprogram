@@ -1,0 +1,13 @@
+print("251A022 ,17-02-2026")
+
+file = open("example.txt", "r")
+content = file.read().split()
+print(content)
+
+n = int(input("enter the word length"))
+
+for i in content:
+    if len(i) == n:
+        print(i)
+
+file.close()
